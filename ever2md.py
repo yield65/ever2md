@@ -9,7 +9,7 @@ import re
 import os
 import time
 from datetime import datetime
-parser = argparse.ArgumentParser(description="Process html files" , usage='%(prog)s [options]' , add_help=True)
+parser = argparse.ArgumentParser(description="Process Evernote HTML files" , usage='%(prog)s [options]' , add_help=True)
 parser.add_argument('-f', '--filename', required=True)
 args = parser.parse_args()
 filename = args.filename
